@@ -1,0 +1,304 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="gbk">
+<meta name="author" content="Tencent-TGideas">
+<meta name="Copyright" content="Copyright (c) 2006-2015 TENCENT" />
+<meta name="keywords" content="王者荣耀后羿,后羿王者荣耀,王者荣耀后羿出装,王者荣耀后羿铭文" />
+<meta name="description" content="《王者荣耀》官方英雄资料、后羿技能介绍、后羿技能加点建议、后羿铭文搭配建议、后羿出装建议、后羿英雄关系、后羿攻略" />
+<title>王者荣耀后羿-王者荣耀官网网站-腾讯游戏</title>
+<link rel="stylesheet" type="text/css" href="//game.gtimg.cn/images/yxzj/web201706/css/comm-v1.css" />
+<link rel="stylesheet" type="text/css" href="//pvp.qq.com/web201706/herodetail/cssjs/hero.css" />
+
+</head>
+<body>
+<div class="wrapper">
+
+    <!-- 位置信息 S -->
+    <div class="zk-con1 zk-con" style="background:url('//game.gtimg.cn/images/yxzj/img201606/skin/hero-info/169/169-bigskin-1.jpg') center 0">
+        <div class="con1-pic">
+            <div class="pic-show-box">
+                <!--<div class="pic-show">
+                    <div class="pic-show1 pic-show3">
+                        <img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_img1.png" style="display:block" width="1200" height="530" alt="" />
+                        <img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_img2.png" width="1200" height="530" alt="" />
+                        <img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_img3.png" width="1200" height="530" alt="" />
+                        <img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_img4.png" width="1200" height="530" alt="" />
+                    </div>
+                </div>-->
+                <div class="cover">
+                    <div class="cover-bg"></div>
+                    <h3 class="cover-title">半神之弓</h3>
+                    <h2 class="cover-name">后羿</h2>
+                    <span class="herodetail-sort"><i class="herodetail-sort-5"></i></span>                           
+                    <a href="//pvp.qq.com/v/detail.shtml?G_Biz=18&tid=205730" target="_blank" class="hero-video" onclick="PTTSendClick('btn','video','英雄视频');">
+                        <span></span>
+                        <img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/169-mobileskin-1.jpg" alt="">
+                        <i class="icon ico-play"></i>
+                    </a>
+                    <ul class="cover-list">
+                        <li>
+                            <em class="cover-list-text fl">生存能力</em>
+                            <span class="cover-list-bar data-bar1 fl"><b class="icon"></b><i class="ibar" style="width:30%"></i></span>
+                        </li>
+                        <li>
+                            <em class="cover-list-text fl">攻击伤害</em>
+                            <span class="cover-list-bar data-bar2 fl"><b class="icon"></b><i class="ibar" style="width:80%"></i></span>
+                        </li>
+                        <li>
+                            <em class="cover-list-text fl">技能效果</em>
+                            <span class="cover-list-bar data-bar3 fl"><b class="icon"></b><i class="ibar" style="width:40%"></i></span>
+                        </li>
+                        <li>
+                            <em class="cover-list-text fl">上手难度</em>
+                            <span class="cover-list-bar data-bar4 fl"><b class="icon"></b><i class="ibar" style="width:30%"></i></span>
+                        </li>
+                    </ul>
+                    <div class="cover-btn">
+                        <a href="javascript:;" class="story">英雄故事</a>
+                        <a href="javascript:;" class="history">历史上的ta</a>
+                    </div>
+                </div>
+                <div class="pic-pf">
+                    <a href="javascript:;" class="pf" title="更多"></a>
+                    <ul class="pic-pf-list pic-pf-list3" data-imgname="半神之弓&0|精灵王&0|阿尔法小队&1|辉光之辰&25|黄金射手座&33|如梦令&69|圣弓游侠&40|无尽星芒&5">
+                        <!--<li><i class="curr"><img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_pic1.jpg" alt="皮肤名称" /></i><p>皮肤名称</p></li>
+                        <li><i><img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_pic2.jpg" alt="皮肤名称" /></i><p>皮肤名称</p></li>
+                        <li><i><img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_pic3.jpg" alt="皮肤名称" /></i><p>皮肤名称</p></li>
+                        <li><i><img src="//game.gtimg.cn/images/yxzj/web201605/page/pf_pic4.jpg" alt="皮肤名称" /></i><p>皮肤名称</p></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 位置信息 E -->
+    <!-- 内容区域1 S -->
+    <div class="zkcontent">
+        <div class="zk-con-box">
+            <!-- 技能说明 S -->
+            <div class="zk-con3 zk-con">
+                <div class="crumb">
+                    <i class="tb1 icon fl"></i>
+                    <a href="//pvp.qq.com/" target="_blank" title="王者荣耀首页">王者荣耀首页</a>
+                    <span>></span>
+                    <a href="//pvp.qq.com/web201605/herolist.shtml" target="_blank" title="英雄介绍">英雄介绍</a>
+                    <span>></span>
+                    <label>后羿</label>
+                    <span class="hidden">169</span>
+                </div>
+                <div class="skill ls fl">
+                    <h3 class="tlt fn"><i class="tb2 icon fl"></i>技能介绍</h3>
+                    <div class="skill-info l info">
+                        <ul class="skill-u1">
+                            <li class="curr"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16900.png" alt="" /></li>
+                            <li><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16910.png" alt="" /></li>
+                            <li><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16920.png" alt="" /></li>
+                            <li><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16930.png" alt="" /></li>
+                            <li class="no5" data-img="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16940.png"><img src="###" alt="" /></li>
+                        </ul>
+                        <div class="skill-show">
+                            <div class="show-list" style="display:block;">
+                                <p class="skill-name"><b>惩戒射击</b><span>冷却值：0</span><span>消耗：0</span></p>
+                                <p class="skill-desc">后羿的普攻命中敌人后增加自身5%攻击速度，可叠加至多3层。当攻速加成叠加到3层时，后羿的普攻将射出3支箭矢，每支箭矢造成原伤害的40%，强化持续3秒。（期间每次命中刷新持续时间）</p>
+                            </div>
+                            <div class="show-list">
+                                <p class="skill-name"><b>多重箭矢</b><span>冷却值：10</span><span>消耗：60</span></p>
+                                <p class="skill-desc">后羿强化自身攻击，每次攻击造成160/208/256/304/352/400（+50%物理加成）点物理伤害（若触发惩戒射击则每支箭矢造成原伤害的40%）并对面前区域内另外2名敌人造成50%伤害，该效果持续5秒</p>
+                            </div>
+                            <div class="show-list">
+                                <p class="skill-name"><b>落日余晖</b><span>冷却值：8/7.4/6.8/6.2/5.6/5</span><span>消耗：60</span></p>
+                                <p class="skill-desc">后羿命令日之塔进行攻击，短暂时间后对指定范围敌人造成300/350/400/450/500/550(+50%物理攻击法术伤害并减少其30%移速，持续2秒。 中心点被命中的敌人将受到50%减速和额外50%伤害。</p>
+                            </div>
+                            <div class="show-list">
+                                <p class="skill-name"><b>灼日之矢</b><span>冷却值：45/40/35</span><span>消耗：130</span></p>
+                                <p class="skill-desc">后羿向指定方向射出火焰箭。击中敌方英雄时会将其眩晕并引发爆炸，爆炸对范围内的敌人造成700/1000/1300（+90%物理加成）点物理伤害；被火焰箭直接命中的敌方英雄将会根据火焰箭的飞行距离眩晕0.5~3.5秒，且技能命中后的溅射伤害会造成90%减速，持续1秒。</p>
+                            </div>
+                            <div class="show-list">
+                                <p class="skill-name"><b></b><span>冷却值：</span><span>消耗：</span></p>
+                                <p class="skill-desc"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sugg rs fl">
+                    <div class="story-tlt">
+                        <h3 class="tlt fn"><i class="tb3 icon fl"></i>铭文搭配建议</h3>
+                    </div>
+                    <div class="sugg-info info">
+                        <ul class="sugg-u1" data-ming="1520|3514|2517" >
+                        <!-- <ul class="sugg-u1" data-ming="1501|3509|2512" >
+                            <li><img src="//game.gtimg.cn/images/yxzj/img201606/mingwen/1501.png" class="sugg-pic1" width="45" height="53" alt=""><p><em>圣人</em></p><p>法术攻击力+5.3</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/mingwen/3509.png" class="sugg-pic1" width="45" height="53" alt=""><p><em>虚空</em></p><p>最大生命+37.5</p><p>冷却缩减+0.6%</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/mingwen/2512.png" class="sugg-pic1" width="45" height="53" alt=""><p><em>轮回</em></p><p>法术攻击力+2.4</p><p>法术吸血+1%</p></li> -->
+                        </ul>
+                        <p class="sugg-tips">Tips：后羿是一个高爆发型的射手，非常依赖普攻效果，攻速，暴击，移速，对于后羿都是非常关键的属性</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 技能说明 E -->
+            <!-- 英雄关系 S -->
+            <div class="zk-con4 zk-con">
+                <div class="hero ls fl">
+                    <div class="sugg-tlt">
+                        <h3 class="tlt fn"><i class="tb4 icon fl"></i>技能加点建议</h3>
+                    </div>
+                    <div class="sugg-info2 info">
+                        <p class="sugg-name"><b>主升</b><span>火焰三尖枪</span></p>
+                        <p class="icon sugg-skill"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16920.png" class="jn-pic1" width="47" height="47" alt="技能1" /></p>
+                        <p class="sugg-name"><b>副升</b><span>混天绫.束</span></p>
+                        <p class="icon sugg-skill"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/169/16910.png" class="jn-pic1" width="47" height="47" alt="技能2" /></p>
+                        <p class="sugg-name sugg-name3"><b>召唤师技能</b><span>闪现/斩杀</span></p>
+                        <p id="skill3" data-skill="80115|80102">
+                            <!-- <p class="icon sugg-skill"><img src="//game.gtimg.cn/images/yxzj/img201606/summoner/80115.jpg" alt="" class="jn-pic1" width="47" height="47"></p>
+                            <p class="icon sugg-skill"><img src="//game.gtimg.cn/images/yxzj/img201606/summoner/80102.jpg" alt="" class="jn-pic1" width="47" height="47"></p>  -->                           
+                        </p>
+                    </div>
+                    <h3 class="tlt fn"><i class="tb5 icon fl"></i>英雄关系</h3>
+                    <div class="hero-info-box">
+                        <ul class="hero-hd">
+                            <li class="curr">最佳搭档<span></span></li>
+                            <li>压制英雄<span></span></li>
+                            <li>被压制英雄</li>
+                        </ul>
+                        <div>
+                            <div class="hero-info l info" style="display:block;">
+                                <div class="hero-f1 fl"><i class="hr1 icon fl"></i>最佳搭档</div>
+                                <div class="hero-list hero-relate-list fl" data-relatename="">
+                                    <ul>
+                                        <li class="cur"><a href="175.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/175/175.jpg" alt=""></a></li>
+                                        <li><a href="168.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/168/168.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="hero-list-desc">
+                                    <p>一旦敌人被后羿的大招命中，那么钟馗的钩子几乎是百发百中。</p>
+                                    <p style="display:none;">后羿是没有位移的射手，在团战中比较依赖队友的保护，牛魔的被动可以给后羿提供防御属性，而他极强的控制技能，可以帮助后羿逃离对手的攻击范围。</p>
+                                </div>
+                            </div>
+                            <div class="hero-info l info">
+                                <div class="hero-f1 fl"><i class="hr2 icon fl"></i>压制英雄</div>
+                                <div class="hero-list hero-relate-list fl" data-relatename="">
+                                    <ul>
+                                        <li class="cur"><a href="196.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/196/196.jpg" alt=""></a></li>
+                                        <li><a href="156.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/156/156.jpg" alt=""></a></li>
+                                    </ul>                    
+                                </div>
+                                <div class="hero-list-desc">
+                                    <p>百里守约释放2技能蓄力阶段是不会移动的，利用这个时机对他释放大招，然后集火攻击他。</p>
+                                    <p style="display:none;">当张良释放大招控制住队友的时候，立即释放大招攻击张良，可以打断张良大招保护队友。</p>
+                                </div>
+                            </div>
+                            <div class="hero-info l info">
+                                <div class="hero-f1 fl"><i class="hr3 icon fl"></i>被压制英雄</div>
+                                <div class="hero-list hero-relate-list fl" data-relatename="">
+                                    <ul>
+                                        <li class="cur"><a href="109.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/109/109.jpg" alt=""></a></li>
+                                        <li><a href="131.shtml"><img src="//game.gtimg.cn/images/yxzj/img201606/heroimg/131/131.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                                <div class="hero-list-desc">
+                                    <p>后羿自身比较脆弱，一旦遇到高爆发的法师，可能会被一套带走。</p>
+                                    <p style="display:none;">李白释放技能的时候，有一个短暂的不可选中的过程，可以轻松躲避后羿的关键技能。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="equip rs fl">
+                    <h3 class="tlt fn"><i class="tb6 icon fl"></i>出装建议</h3>
+                    <div class="equip-box">
+                        <ul class="equip-hd">
+                            <li class="curr">推荐出装一<span></span></li>
+                            <li>推荐出装二</li>                            
+                        </ul>
+                    </div>
+                    <div class="equip-bd">
+                        <div class="equip-info l" style="display:block;">
+                            <ul class="equip-list fl" data-item="1425|1126|1135|1133|1155|1132">
+                                <!-- <li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/1326.jpg" alt=""><p>近卫荣耀</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/1423.jpg" alt=""><p>冷静之靴</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/1226.jpg" alt=""><p>圣杯</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/1336.jpg" alt=""><p>极寒风暴</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/12211.jpg" alt=""><p>梦魇之牙</p></li><li><img src="//game.gtimg.cn/images/yxzj/img201606/itemimg/1238.jpg" alt=""><p>贤者之书</p></li> -->
+                            </ul>
+                            <p class="equip-tips">Tips：搭配铭文可以获得高额的吸血属性，让后羿能够无惧敌人消耗，持续输出的同时迅速的恢复被消耗的血量</p>
+                        </div>
+                        <div class="equip-info l">
+                            <ul class="equip-list fl" data-item="1425|1135|1132|1133|1155|91040">
+                                
+                                
+                            </ul>
+                            <p class="equip-tips">Tips：逐日之弓能让后羿的输出位置更加安全，避免被爆发伤害直接秒掉</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 英雄关系 E -->
+            <!-- 英雄视频 S -->
+            <div class="zk-con5 zk-con">
+                <div class="strategy-tlt">
+                    <h3 class="tlt fn"><i class="tb7 icon fl"></i>英雄攻略</h3>
+                    <a href="//pvp.qq.com/raiders/" target="_blank" class="more" title="进入王者学院"><i class="tb8 icon fl"></i>更多</a>
+                </div>
+                <div class="strategy-box">
+                    
+                    <div class="video fl">
+                        <div class="video-info">
+                            <ul class="video-u1">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="strategy fl">
+                        <ul class="strategy-info">
+                           
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- 英雄视频 E -->
+        </div>
+    </div>
+</div>
+<div class="pop-story" id="hero-story">
+    <div class="pop-hd">
+        英雄故事
+        <a href="javascript:showDialog.hide();" class="close"></a>
+    </div>
+    <div class="pop-bd">
+        <p><b>茫茫时空中，渺小蔚蓝的星球上，曾存在着遥远的时代……到达巅峰后一夕毁灭的时代。</b>过去的文明湮灭在时光中，新的生命从新的大陆中生存，繁盛。而引领他们的，是乘坐方舟降临的“超智慧生命体”。</p> <p>是的，相较于新大陆原生的普通，平凡的人类，他们无论从体力，智慧上，都远远胜之。至于他们的领袖，更是其中的佼佼者，声名如雷贯耳：女娲，伏羲，黄帝，炎帝 ，共工……在这些杰出领导者的带领下，新人类们建设的文明，短短数百年的时间内，繁盛璀璨便超越了过往的总和。</p> <p>让这些伟大人物创下不世功绩的，是两大通往终极知识的秘术：魔道与机关。只有少数领导者掌握这秘密，并代代传承。他们俨然就是这个时代的超强者，接受人们的膜拜。</p> <p><b>然而，有秘密，就有觊觎秘密者。</b>后羿，英勇的神射手，他的赫赫功勋引起了王者的注意。有一天，这位英雄被带入到华丽的居所，由上官向他陈述机密的计划：破坏遥远边境矗立的“日之塔”。因为“日之塔”的存在，魔道能量源源不断的被制造出来。那股庞大而又不稳定的力量，若是落入西方的手中，大陆会陷入战争危机。</p> <p>后羿成功了。他完成了破坏九座日之塔的壮举。但他被这炫目而闻所未闻，象征着魔道与机关术完美结合的结晶而迷住了。他的动摇，以及被魔道所深深吸引的痴迷目光，全数不落的被监视者所察觉。当后羿内心计划着将这股力量据为己有时，针对他的谋杀计划也提上了日程。</p> <p>最后一座日之塔就矗立在眼前。<b>后羿百发百中的大弓射穿巡逻卫兵的喉咙，潜入高塔。在那里，精密的魔道机关运行着，生产着源源不断的能量。</b>清除了所有的守卫者后，他举起了大弓。</p> <p>大箭射穿了机关，日之塔的运转中止了。令监视者始料未及的却是，所有能量并未如之前那九座高塔一般消散，而是全数涌向后羿……他的箭，那只特制的箭，变成了导能装置，让他得以吸取魔道所制造出来的全部力量。</p> <p>“原来，这就是太阳的光辉啊！我，最后的太阳。”</p> <p>力量……无穷的力量……巨大的弓箭在手中就如玩具一般，这才是自己希望成为的人类的模样：超人的实力。现在，双目能看得更加遥远，耳力也更加灵敏。他很快察觉到自遥远的地方，有什么正在接近。</p> <p>王者比所有人预想的还要小心谨慎。他与许多强大的新人类周旋过，甚至在监视者的报告到达之前，他就决心要将这位新生的英雄扼杀。<b>怀抱着不甘与愤怒，拥抱太阳之辉的后羿，终究与太阳一同沉睡。</b></p> <p>……这是一段记载于古老史书的故事，大部分人早已忘却。曾经矗立的日之塔，以及那位悲剧的英雄。</p> <p>可有人还记得。不仅记得，他甚至亲手打开了掩埋在白雪下的废墟。</p> <p>重生的太阳，是否会射出更璀璨的光辉？</p> <p>拭目以待吧。</p>  <p><b>“苏醒了，猎杀时刻！”</b></p>    </div>
+</div>
+<div class="pop-story" id="history">
+    <div class="pop-hd">
+        历史上的TA
+        <a href="javascript:showDialog.hide();" class="close"></a>
+    </div>
+    <div class="pop-bd">
+        <p>历史上真有一个后羿，系大禹时的一个部落首领。而神话传说中，也有一个后羿，《山海经》和《淮南子》中均有提到，《淮南子》讲得尤其详细，说当时十日并出，害苦民众，后羿射掉九日，为民除害。后来又有传说，说后羿的妻子叫嫦娥，后羿请来了长生不死之药，但被嫦娥偷吃，结果升天到了月亮上，跟后羿长久地分别。</p>
+    </div>
+</div>
+
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script type="text/javascript">
+//此段代码不能放到外链JS中，
+var setSite={ //设置网站属性
+    siteType:"os", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+    pageType:"herodetail", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+    pageName:"致胜宝典", //必填项:页面中文名
+    osact:'pc', //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+    ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+    project:'base' //选填项:是否需要统计停留时长boolean；默认是0
+}
+if(typeof(pgvMain) == 'function')pgvMain();
+</script>
+<script src="//game.gtimg.cn/images/js/title.js"></script>
+<script src="//game.gtimg.cn/images/js/milo/util/jquery-1.11.3.min.js"></script>
+<script src="//game.gtimg.cn/images/js/milo/milo.js"></script>
+<script src="//game.gtimg.cn/images/yxzj/web201706/js/header.js"></script>
+<script src="//game.gtimg.cn/images/js/comm/showDialog.min.js"></script>
+<!-- <script src="//pvp.qq.com/web201605/js/loudlinks.js"></script> -->
+<script src="//gicp.qq.com/wmp/data/js/PAGE_WMP_BIZ_TYPE.js"></script>
+<!-- <script src="//lol.qq.com/m/public/Activity_Comm.js"></script> -->
+<script src="//gicp.qq.com/wmp/sys/v3.0/js/wmpCommon_v3.js"></script>
+<script>
+var cname = '后羿',ename = '169';
+</script>
+<script src="//game.gtimg.cn/images/yxzj/web201706/js/heroid.js"></script>
+<script src="//pvp.qq.com/web201706/herodetail/cssjs/page.js"></script>
+</body>
+</html>
