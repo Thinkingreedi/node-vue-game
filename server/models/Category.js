@@ -1,3 +1,4 @@
+// 分类的数据模型
 const mongoose = require('mongoose')
 
 const schema = new mongoose.Schema({

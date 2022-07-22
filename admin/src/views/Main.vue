@@ -1,7 +1,9 @@
 <template>
   <!-- 撑满屏幕高度 -->
   <el-container style="height: 100vh">
-    <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
+    <!-- 侧边栏 -->
+    <el-aside width="200px" style="background-color: rgb(238, 241, 243)">
+      <!-- 菜单栏 -->
       <el-menu
         router
         :default-openeds="['1']"
@@ -10,7 +12,7 @@
       >
         <el-submenu index="1">
           <template slot="title"
-            ><i class="el-icon-message"></i>内容管理</template
+            ><i class="el-icon-s-fold"></i>内容管理</template
           >
           <el-menu-item-group>
             <template slot="title">物品</template>
@@ -31,7 +33,7 @@
 
         <el-submenu index="2">
           <template slot="title">
-            <i class="el-icon-message"></i>运营管理
+            <i class="el-icon-s-opportunity"></i>运营管理
           </template>
           <el-menu-item-group>
             <template slot="title">广告</template>
@@ -41,9 +43,7 @@
         </el-submenu>
 
         <el-submenu index="3">
-          <template slot="title"
-            ><i class="el-icon-message"></i>系统设置</template
-          >
+          <template slot="title"><i class="el-icon-menu"></i>系统设置</template>
           <el-menu-item-group>
             <template slot="title">分类</template>
             <el-menu-item index="/categories/create">新建分类</el-menu-item>
@@ -57,37 +57,20 @@
         </el-submenu>
       </el-menu>
     </el-aside>
-
     <el-container>
+      <!-- 头部栏 -->
       <el-header style="text-align: right">
-        <el-button
-          type="text"
-          size="middle"
-          style="color: black"
-          @click="loginOut"
-        >
+        <el-button size="small" style="color: black" @click="loginOut">
           退出</el-button
         ></el-header
       >
-
+      <!-- 主界面栏 -->
       <el-main>
         <router-view></router-view>
       </el-main>
     </el-container>
   </el-container>
 </template>
-
-<style>
-.el-header {
-  background-color: #b3c0d1;
-  color: #333;
-  line-height: 60px;
-}
-
-.el-aside {
-  color: #333;
-}
-</style>
 
 <script>
 export default {
@@ -105,3 +88,15 @@ export default {
   },
 };
 </script>
+
+<style>
+.el-header {
+  background-color: #b3bdcc;
+  color: #333;
+  line-height: 60px;
+}
+
+.el-aside {
+  color: #333;
+}
+</style>

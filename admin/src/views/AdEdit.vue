@@ -6,6 +6,7 @@
         <el-input v-model="model.name"></el-input>
       </el-form-item>
       <el-form-item label="广告">
+        <!-- 添加广告 -->
         <el-button size="small" @click="model.items.push({})"
           ><i class="el-icon-plus"></i>添加广告</el-button
         >
@@ -14,7 +15,7 @@
             <el-form-item label="跳转链接(URL)">
               <el-input v-model="item.url"></el-input>
             </el-form-item>
-
+            <!-- 添加图片 -->
             <el-form-item label="图片" style="margin-top: 0.5rem">
               <el-upload
                 class="avatar-uploader"
@@ -60,13 +61,11 @@ export default {
   methods: {
     async save() {
       let res;
-
       if (this.id) {
         res = await this.$http.put(`rest/ads/${this.id}`, this.model);
       } else {
         res = await this.$http.post("rest/ads", this.model);
       }
-
       this.$router.push("/ads/list");
       this.$message({
         type: "success",
