@@ -1,6 +1,6 @@
 @import './variables';
 
-// reset 
+// reset
 * {
     box-sizing: border-box;
     outline: none;
@@ -12,10 +12,9 @@ html {
 
 body {
     margin: 0;
-    // 大多数设备/苹果设备/非衬线字体
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
-    background-color: #f1f1f1;
+    background: #f1f1f1;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -23,13 +22,14 @@ a {
     color: #999;
 }
 
-
-
+p {
+    line-height: 1.5em;
+}
 
 @each $colorKey,
 $color in $colors {
     .text-#{$colorKey} {
-        color: $color
+        color: $color;
     }
 
     .bg-#{$colorKey} {
@@ -40,10 +40,9 @@ $color in $colors {
 // text align
 @each $var in (left, center, right) {
     .text-#{$var} {
-        text-align: $var  !important
+        text-align: $var  !important;
     }
 }
-
 
 @each $sizeKey,
 $size in $font-sizes {
@@ -52,7 +51,15 @@ $size in $font-sizes {
     }
 }
 
-// width,height
+// text overflow
+.text-ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// width, height
 .w-100 {
     width: 100%;
 }
@@ -66,14 +73,13 @@ $size in $font-sizes {
     display: flex;
 }
 
-.flex-colum {
+.flex-column {
     flex-direction: column;
 }
 
 .flex-wrap {
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
-
 
 @each $key,
 $value in $flex-jc {
@@ -82,7 +88,6 @@ $value in $flex-jc {
     }
 }
 
-
 @each $key,
 $value in $flex-ai {
     .ai-#{$key} {
@@ -90,21 +95,19 @@ $value in $flex-ai {
     }
 }
 
-// 分配容器的剩余空间--撑满
 .flex-1 {
-    flex: 1,
+    flex: 1;
 }
 
 .flex-grow-1 {
     flex-grow: 1;
 }
 
-
-// 循环嵌套生成边距
+// m-0, mx-0
 @each $typeKey,
 $type in $spacing-types {
 
-    // .m-1 .p-1
+    // .m-1
     @each $sizeKey,
     $size in $spacing-sizes {
         .#{$typeKey}-#{$sizeKey} {
@@ -112,7 +115,7 @@ $type in $spacing-types {
         }
     }
 
-    // .mx-1 .py-1
+    // .mx-1 , .my-1
     @each $sizeKey,
     $size in $spacing-sizes {
         .#{$typeKey}x-#{$sizeKey} {
@@ -126,13 +129,12 @@ $type in $spacing-types {
         }
     }
 
-    // .mt-1 .pt-1
+    // .mt-1
     @each $directionKey,
     $direction in $spacing-directions {
 
         @each $sizeKey,
         $size in $spacing-sizes {
-
             .#{$typeKey}#{$directionKey}-#{$sizeKey} {
                 #{$type}-#{$direction}: $size * $spacing-base-size;
             }
@@ -146,9 +148,27 @@ $type in $spacing-types {
     border-radius: 0.1538rem;
     font-size: map-get($font-sizes, 'sm') * $base-font-size;
     padding: 0.2rem 0.6rem;
+
+    &.btn-lg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        i {
+            color: map-get($colors, 'primary');
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        background: map-get($colors, 'white-1');
+        border: 1px solid map-get($colors, 'white-2');
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+    }
 }
 
-// nac
+// nav
 .nav {
     display: flex;
 
@@ -171,11 +191,12 @@ $type in $spacing-types {
             }
         }
     }
+
 }
 
 // sprite
 .sprite {
-    background: url(../image/index.png)no-repeat 0 0;
+    background: url(../image/index.png) no-repeat 0 0;
     background-size: 28.8462rem;
     display: inline-block;
 
@@ -188,7 +209,13 @@ $type in $spacing-types {
     &.sprite-arrow {
         width: 0.7692rem;
         height: 0.7692rem;
-        ;
         background-position: 38.577% 52.076%;
+    }
+}
+
+// borders
+@each $dir in (top, right, bottom, left) {
+    .border-#{$dir} {
+        border-#{$dir}: 1px solid $border-color;
     }
 }
