@@ -64,7 +64,7 @@ const router = new Router({
     },
   ]
 })
-// 页面限制
+// 路由守卫 -- 页面限制
 router.beforeEach((to, from, next) => {
   if (!to.meta.isPublic && !localStorage.token) {
     return next('/login')

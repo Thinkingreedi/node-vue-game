@@ -4,16 +4,10 @@
     <!-- 侧边栏 -->
     <el-aside width="200px" style="background-color: rgb(238, 241, 243)">
       <!-- 菜单栏 -->
-      <el-menu
-        router
-        :default-openeds="['1']"
-        unique-opened
-        default-active="$route.path"
-      >
+      <el-menu router :default-openeds="['1']" unique-opened default-active="$route.path">
+
         <el-submenu index="1">
-          <template slot="title"
-            ><i class="el-icon-s-fold"></i>内容管理</template
-          >
+          <template slot="title"><i class="el-icon-s-fold"></i>内容管理</template>
           <el-menu-item-group>
             <template slot="title">物品</template>
             <el-menu-item index="/items/create">新建物品</el-menu-item>
@@ -58,12 +52,10 @@
       </el-menu>
     </el-aside>
     <el-container>
-      <!-- 头部栏 -->
+      <!-- 头(顶)部栏 -->
       <el-header style="text-align: right">
         <el-button size="small" style="color: black" @click="loginOut">
-          退出</el-button
-        ></el-header
-      >
+          退出</el-button></el-header>
       <!-- 主界面栏 -->
       <el-main>
         <router-view :key="$route.path"></router-view>
