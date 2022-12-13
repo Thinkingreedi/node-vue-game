@@ -3,30 +3,15 @@
     <!-- 幻灯片部分-->
     <swiper :options="swiperOption">
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/image/1a4b3eb4a82d5656ed5d949630cc7ec5.jpeg"
-          alt
-        />
+        <img class="w-100" src="../assets/image/1a4b3eb4a82d5656ed5d949630cc7ec5.jpeg" alt />
       </swiper-slide>
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/image/1a4b3eb4a82d5656ed5d949630cc7ec5.jpeg"
-          alt
-        />
+        <img class="w-100" src="../assets/image/52e6e1a7c5f1b98584b40658951e0a19.jpeg" alt />
       </swiper-slide>
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/image/1a4b3eb4a82d5656ed5d949630cc7ec5.jpeg"
-          alt
-        />
+        <img class="w-100" src="../assets/image/8b0573b547e224283861790c57b593a7.jpeg" alt />
       </swiper-slide>
-      <div
-        class="swiper-pagination pagination-home text-right px-3 pb-1"
-        slot="pagination"
-      ></div>
+      <div class="swiper-pagination pagination-home text-right px-3 pb-1" slot="pagination"></div>
     </swiper>
     <!-- 图标部分 -->
     <div class="nav-icons bg-white mt-3 text-center pt-3 text-dark-1">
@@ -44,17 +29,12 @@
     <!-- 新闻卡片部分 -->
     <m-list-card icon="cc-menu-circle" title="新闻资讯" :categories="newsCats">
       <template #items="{ category }">
-        <router-link
-          tag="div"
-          :to="`/articles/${news._id}`"
-          class="py-2 fs-lg d-flex"
-          v-for="(news, i) in category.newsList"
-          :key="i"
-        >
+        <router-link tag="div" :to="`/articles/${news._id}`" class="py-2 fs-lg d-flex"
+          v-for="(news, i) in category.newsList" :key="i">
           <span class="text-info">[{{ news.categoryName }}]</span>
           <span class="px-2">|</span>
           <span class="flex-1 text-dark-1 text-ellipsis pr-2">{{
-            news.title
+              news.title
           }}</span>
           <span class="text-grey-1 fs-sm">{{ news.createdAt | date }}</span>
         </router-link>
@@ -64,14 +44,8 @@
     <m-list-card icon="Boxing-Helmet" title="英雄列表" :categories="heroCats">
       <template #items="{ category }">
         <div class="d-flex flex-wrap" style="margin: 0 -0.4rem">
-          <router-link
-            tag="div"
-            :to="`/heroes/${hero._id}`"
-            class="p-2 text-center"
-            style="width: 20%"
-            v-for="(hero, i) in category.heroList"
-            :key="i"
-          >
+          <router-link tag="div" :to="`/heroes/${hero._id}`" class="p-2 text-center" style="width: 20%"
+            v-for="(hero, i) in category.heroList" :key="i">
             <img :src="hero.avatar" class="w-100" />
             <div>{{ hero.name }}</div>
           </router-link>
@@ -131,17 +105,21 @@ export default {
     opacity: 1;
     border-radius: 0.1538rem;
     background: map-get($colors, "white");
+
     &.swiper-pagination-bullet-active {
       background: map-get($colors, "info");
     }
   }
 }
+
 .nav-icons {
   border-top: 1px solid $border-color;
   border-bottom: 1px solid $border-color;
+
   .nav-item {
     width: 25%;
     border-left: 1px solid $border-color;
+
     &:nth-child(4n + 1) {
       border-left: none;
     }

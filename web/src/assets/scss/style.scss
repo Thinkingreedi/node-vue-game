@@ -15,6 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2em;
     background: #f1f1f1;
+    // 灰度平滑
     -webkit-font-smoothing: antialiased;
 }
 
@@ -40,7 +41,7 @@ $color in $colors {
 // text align
 @each $var in (left, center, right) {
     .text-#{$var} {
-        text-align: $var  !important;
+        text-align: $var !important;
     }
 }
 

@@ -10,7 +10,7 @@ import './assets/scss/style.scss'
 import router from './router'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-import 'swiper/css/swiper.css'
+import '../node_modules/swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper)
 
 import Card from "./components/Card.vue";
