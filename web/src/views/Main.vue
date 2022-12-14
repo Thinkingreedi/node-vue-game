@@ -6,7 +6,7 @@
         <div class="text-white">王者荣耀</div>
         <div class="text-grey-1 fs-xxs">团队成就更多</div>
       </div>
-      <button type="button" class="btn bg-primary">立即下载</button>
+      <a href="#"><button type="button" class="btn bg-primary">立即下载</button></a>
     </div>
 
     <div class="bg-primary pt-3 pb-2">

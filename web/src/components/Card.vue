@@ -22,10 +22,12 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/_variables.scss";
+
 .card {
   .card-header {
     border-bottom: 1px solid $border-color;
   }
+
   border-bottom: 1px solid $border-color;
 }
 </style>
