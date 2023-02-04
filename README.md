@@ -1,80 +1,88 @@
-# Node.js + Vue.js 开发王者荣耀手机端官网和管理后台
+# Vue.js  + Node.js 开发GMS-游戏管理平台(含移动端官网和管理后台)
 
+## 项目简介
+* 本项目是一个移动端的游戏手机端官网和后台管理系统（pc端）的全栈开源项目，基于 vue + node (Express + ElementUI) +mongodb实现。部署在阿里云服务器，本项目使用了最新的Vue全家桶技术栈，后台数据通过node+mongodb搭建。
 
-## 一、 入门
-1. 项目介绍
-1. 工具安装和环境搭建(nodejs,npm,mongodb)
-1. 初始化项目
+* 项目体验地址：
+  * 移动端官网：http://moba.thinkingreedi.xyz/
+  * PC端管理后台：[http://moba.thinkingreedi.xyz/admin/#/login](http://moba.thinkingreedi.xyz/admin/#/login)
 
-## 二、 管理后台
-1. 基于Element UI的后台管理基础界面搭建
+## 1、环境准备
 
-1. 创建分类
-1. 分类列表
-1. 修改分类
-1. 删除分类
-1. 子分类
+* 工具安装和环境搭建(vscode,node.js,npm,mongodb),并做好相关配置。
 
-1. **通用 CRUD 接口**
+## 2、项目启动
 
-1. 装备管理
-1. 图片上传 (multer)
+* star本项目，并clone项目到本地
 
-1. 英雄管理
-1. 编辑英雄 (关联,多选,el-select, multiple)
-1. 技能编辑
+~~~
+git clone git@github.com:Thinkingreedi/node-vue-game.git
+~~~
 
-1. 文章管理
-1. 富文本编辑器 (quill)
+* 进入项目目录
 
-1. 首页广告管理
+~~~
+cd node-vue-game
+~~~
 
-1. 管理员账号管理 (bcrypt)
-1. 登录页面
-1. 登录接口 (jwt,jsonwebtoken)
-1. 服务端登录校验
-1. 客户端路由限制 (beforeEach, meta)
-1. 上传文件的登录校验 (el-upload, headers)
+* 安装依赖
 
-## 三、移动端网站
+~~~
+admin（后台管理系统）
+npm install
 
-1. "工具样式"概念和 SASS (SCSS)
-1. 样式重置
-1. 网站色彩和字体定义 (colors, text)
-1. 通用flex布局样式定义 (flex)
-1. 常用边距定义 (margin, padding)
-1. 主页框架和顶部菜单
-1. 首页顶部轮播图片 (vue swiper)
-1. 使用精灵图片 (sprite)
-1. 使用字体图标 (iconfont)
-1. 卡片组件 (card)
-1. 列表卡片组件 (list-card, nav, swiper)
-1. 首页新闻资讯-数据录入(+后台bug修复)
-1. 首页新闻资讯-数据接口
-1. 首页新闻资讯-界面展示
-1. 首页英雄列表-提取官网数据
-1. 首页英雄列表-录入数据
-1. 首页英雄列表-界面展示
-1. 新闻详情页
-1. 新闻详情页-完善
-1. 英雄详情页-1-前端准备
-1. 英雄详情页-2-后台编辑
-1. 英雄详情页-3-前端顶部
-1. 英雄详情页-4-完善
+web 移动端
+npm install
 
-## 四、发布和部署 (阿里云)
+server 服务端
+npm install
+~~~
 
-1. 生产环境编译
-1. 购买域名和服务器
-1. 域名解析
-1. Nginx 安装和配置
-1. MongoDB数据库的安装和配置
-1. git 安装、配置ssh-key
-1. Node.js 安装、配置淘宝镜像
-1. 拉取代码，安装pm2并启动项目
-1. 配置 Nginx 的反向代理
-1. 迁移本地数据到服务器 (mongodump)
+* 启动服务
 
-## 五、进阶
-1. 使用免费SSL证书启用HTTPS安全连接
-1. 使用阿里云OSS云存储存放上传文件
+~~~
+admin（后台管理系统）
+npm run serve
+
+web 移动端
+npm run serve
+
+server 服务端(须确保数据库已连接)
+npm run serve
+~~~
+
+* 点击链接即可访问网站~
+
+## 3、项目截图
+
+* 系统登录：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/image-20230204161053910.png)
+
+* 后台管理系统界面新建物品：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161233.png)
+
+* 后台管理系统物品列表：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161301.png)
+
+* 后台管理系统文章编辑：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161317.png)
+
+* 退出登录：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161349.png)
+
+* 移动端首页：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161426.png)
+
+* 移动端页面：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161446.png)
+
+* 移动端文章页面：
+
+![](https://cdn.jsdelivr.net/gh/Thinkingreedi/myblog@main/img/20230204161526.png)
