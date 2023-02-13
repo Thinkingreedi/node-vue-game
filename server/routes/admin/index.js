@@ -40,7 +40,9 @@ module.exports = app => {
     // 登录校验中间件
     const authMiddleware = require('../../middleware/auth')
     const resourceMiddleware = require('../../middleware/resource')
+    
     app.use('/admin/api/rest/:resource', authMiddleware(), resourceMiddleware(), router)
+    
     const multer = require('multer')
     const upload = multer({ dest: __dirname + '/../../uploads' })
     app.post('/admin/api/upload', authMiddleware(), upload.single('file'), async (req, res) => {
